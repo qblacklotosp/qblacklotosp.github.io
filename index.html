@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset='UTF-8'/>
+     <title>Форма обратной связи</title>
+     <link rel="stylesheet" href="Backform.css" type="text/css">
+ </head>
+
+ <body>
+        
+      <div class="form-container">
+           <form action="form">
+               <h1>КАСКО/ОСАГО</h1>
+               <div id="rectangle"></div>
+               <div id="rectangle_of_is"></div>
+               <strong><h3>Страхование ФЛ</h3></strong>
+               <div class="form-field multi-input">
+                   <label for="sname">Фамилия*</label>
+                   <input type="text" name="first-name" id="fname" placeholder=" Иванов">
+               </div>
+               <div class="form-field multi-input">
+                    <label for="sname">Имя*</label>
+                    <input type="text" name="second-name" id="name" placeholder=" Иван">
+                </div>
+                <div class="form-field multi-input">
+                        <label for="oname">Отчество*</label>
+                        <input type="text" name="third-name" id="otname" placeholder=" Иванович">
+                </div>
+                <div class="form-field multi-input">
+                        <label for="tname">Телефон*</label>
+                        <nobr>+7( </nobr><input type="text" name="tel" id="telname" placeholder=" 999">
+                        <nobr id="a1">) </nobr><input type="text" name="tel" id="tename" placeholder=" 888 77 66"> 
+                </div>
+                <div class="form-field multi-input">
+                        <label for="pname">Эл. Почта*</label>
+                        <input type="text" name="first-name" id="ename" placeholder=" ivan@gmail.com">
+                </div>
+                <div class="form-field multi-input">
+                        <label for="rname">Регион*</label>
+                        <p><select name="insurance">
+                                <optgroup label=Доступные>
+                                 <option value="p1">Чувашская Республика</option>
+                                 <option value="p2">Республика Татарстан</option>
+                                 <option value="p3">Республика Марий-Эл</option>
+                                </optgroup>
+                               </select></p>
+                                </div>
+                                <strong><h3>Характер обращения*</h3></strong>
+                              <form>
+                        <p><select name="insurance1">
+                         <optgroup label=Жалоба>
+                          <option value="p1">Жалоба по ОСАГО</option>
+                          <option value="p2">Жалоба по КАСКО</option>
+                          <option value="p3">Жалоба по другому типу</option>
+                         </optgroup>
+                         <optgroup label=Страхование>
+                                 <option value="p1">Страхование ОСАГО</option>
+                                 <option value="p2">Страхование КАСКО</option>
+                                </optgroup>
+                        </select></p>
+                         <div class="group">
+                                 <input type="submit" value="Отправить" class="button-submit">
+                                        <div class="easy"></div>
+                         </div>       
+                        
+                                <h4>* - Обязательное поле</h4>
+                        
+                </div>
+                
+                
+                </form> 
+            </form>              
+        </div>
+                </div>
+           </form>
+      </div>
+   
+        
+      </form>
+ </body>
+
+</html>
