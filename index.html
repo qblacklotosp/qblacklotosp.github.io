@@ -4,17 +4,19 @@
      <meta charset='UTF-8'/>
      <title>Форма обратной связи</title>
      <link rel="stylesheet" href="Backform.css" type="text/css">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script src="script.js"></script>
  </head>
 
  <body>
-        
+       
       <div class="form-container">
            <form action="form">
                <h1>КАСКО/ОСАГО</h1>
                <div id="rectangle"></div>
                <div id="rectangle_of_is"></div>
                <strong><h3>Страхование ФЛ</h3></strong>
-               <div class="form-field multi-input">
+               <div class="form-field multi-input"> 
                    <label for="sname">Фамилия*</label>
                    <input type="text" name="first-name" id="fname" placeholder=" Иванов">
                </div>
@@ -33,8 +35,9 @@
                 </div>
                 <div class="form-field multi-input">
                         <label for="pname">Эл. Почта*</label>
-                        <input type="text" name="first-name" id="ename" placeholder=" ivan@gmail.com">
+                        <input type="text" name="first-name" id="ename" placeholder=" ivan@gmail.com"> 
                 </div>
+
                 <div class="form-field multi-input">
                         <label for="rname">Регион*</label>
                         <p><select name="insurance">
